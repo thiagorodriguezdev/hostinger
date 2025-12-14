@@ -20,7 +20,39 @@ html {
   margin: 0 auto;
 }
 
-a {
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 11.9rem;
+  background-color: #5f3ca1;
+  display: flex;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li:not(:first-child) {
+  margin-left: 5.6rem;
+}
+header nav ul li a {
+  display: flex;
+  align-items: center;
+}
+header nav ul li a span {
+  margin-left: 1.6rem;
+  color: #fcfcfc;
+  font-size: 1.6rem;
+}
+
+.btn {
   display: inline-block;
   height: 5.4rem;
   line-height: 5.4rem;
@@ -32,7 +64,7 @@ a {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-a:hover {
+.btn:hover {
   background-color: #5f3ca1;
   color: #ffbf00;
 }/*# sourceMappingURL=main.css.map */
