@@ -24,9 +24,24 @@ header {
             margin-left: 1.6rem;
             color: #fcfcfc;
             font-size: 1.6rem;
+            transition: opacity 0.3s ease;
+            &:hover {
+              opacity: 0.7;
+            }
           }
         }
       }
     }
+  }
+  @include responsive(600px) {
+    .container {
+      justify-content: center;
+    }
+    nav {
+      display: none;
+    }
+  }
+  @include responsive(480px) {
+      height: 8rem;
   }
 }
