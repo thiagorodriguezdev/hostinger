@@ -1,3 +1,9 @@
 .btn {
   @include style-btn(5.4rem, $yellow, $purple);
 }
+
+.s-hero {
+  margin-top: 11.9rem;
+  background-color: $purple;
+  padding-top: 4rem;
+}

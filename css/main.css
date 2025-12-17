@@ -91,4 +91,10 @@ header nav ul li a span:hover {
 .btn:hover {
   background-color: #5f3ca1;
   color: #ffbf00;
+}
+
+.s-hero {
+  margin-top: 11.9rem;
+  background-color: #5f3ca1;
+  padding-top: 4rem;
 }/*# sourceMappingURL=main.css.map */
