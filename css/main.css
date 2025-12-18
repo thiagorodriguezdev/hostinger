@@ -183,20 +183,23 @@ header nav ul li a span:hover {
   .s-hero .container .text h1 {
     font-size: 4rem;
   }
+  .s-hero .image {
+    left: -2rem;
+  }
 }
 
-.s-marketing {
+.s-resources {
   margin-top: 9.8rem;
   max-width: 100%;
 }
-.s-marketing .text-marketing {
+.s-resources .text-resources {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding-top: 5rem;
 }
-.s-marketing .text-marketing .left h2 {
+.s-resources .text-resources h2 {
   max-width: 50.2rem;
   color: var(#453f51);
   font-family: "PT Sans", sans-serif;
@@ -204,10 +207,54 @@ header nav ul li a span:hover {
   font-weight: 700;
   line-height: 130%;
 }
-.s-marketing .text-marketing .left p {
+.s-resources .text-resources p {
   color: var(#5e5570);
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 150%;
+}
+.s-resources .content {
+  width: 100%;
+  margin-top: 5.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-resources .content .card-featured {
+  max-width: 28rem;
+  background-color: rgba(197, 190, 220, 0.1);
+  padding: 4rem;
+}
+.s-resources .content .card-featured .card-icon {
+  display: inline-block;
+  background-color: #fff;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.s-resources .content .card-featured .card-text h3 {
+  color: #5f3ca1;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.s-resources .content .card-featured .card-text p {
+  color: var(#5e5570);
+  font-family: Lato;
+  font-size: 1.6rem;
+  line-height: 165%;
+}
+.s-resources .content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-resources .content ul li {
+  max-width: 28rem;
 }/*# sourceMappingURL=main.css.map */
